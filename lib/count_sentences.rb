@@ -30,7 +30,7 @@ class String
 
   def count_sentences
     array = self.split(/\.|\!|\?/)
-    array.select {|sentence|} 
+    array.select {|sentence| sentence.length > 2} 
     binding.pry
   end 
 end
