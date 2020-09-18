@@ -11,9 +11,8 @@ class String
     end 
   end 
 
-
   def question?
-    if "What's your name?".end_with?("?")
+    if @self.end_with?("?")
       return true
     else 
       false
