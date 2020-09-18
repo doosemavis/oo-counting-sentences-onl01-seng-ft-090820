@@ -10,7 +10,7 @@ class String
     end 
   end 
   
-
+  
   def question?
     if self.end_with?("?")
       return true
@@ -28,5 +28,6 @@ class String
     end 
   end 
 
-  
+  def count_sentences
+    self
 end
